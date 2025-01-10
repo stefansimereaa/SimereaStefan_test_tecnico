@@ -7,6 +7,7 @@
 2. **Configurazione dell'ambiente**
    - `cp .env.example .env`
    - `php artisan key:generate`
+   - `settare i dati del db nel file env e cambiare in mysql il campo DB_CONNECTION nel caso di un db mysql`
 
 3. **Setup del database**
    - `php artisan migrate`
